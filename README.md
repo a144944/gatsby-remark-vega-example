@@ -1,9 +1,5 @@
-# gatsby-starter-blog
-Gatsby starter for creating a blog
+# gatsby-remark-vega-example
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+This repo demonstrates the usage of the [`gatsby-remark-vega` plugin](https://github.com/thekevinscott/gatsby-remark-vega).
 
-`gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-blog`
-
-## Running in development
-`gatsby develop`
+See a live demo running at [https://thekevinscott.github.io/gatsby-remark-vega-example/](https://thekevinscott.github.io/gatsby-remark-vega-example/).
