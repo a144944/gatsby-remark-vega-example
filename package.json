@@ -29,6 +29,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "serve": "gatsby serve",
     "build-gatsby": "gatsby build --prefix-paths",
     "deploy": "gh-pages -d public",
     "prebuild": "rm -rf .cache/* && rm -rf docs && rm -rf public",
