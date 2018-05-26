@@ -31,7 +31,7 @@
     "build-gatsby": "gatsby build",
     "deploy": "gh-pages -d public",
     "prebuild": "rm -rf .cache/* && rm -rf docs && rm -rf public",
-    "build": "NODE_ENV=production && npm run prebuild && npm run build-gatsby",
+    "build": "NODE_ENV=production && npm run prebuild && npm run build-gatsby --prefix-paths",
     "develop": "gatsby develop"
   }
 }

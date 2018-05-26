@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/gatsby-remark-vega-example`,
   siteMetadata: {
     title: "Example of gatsby-remark-vega",
     author: "Kevin Scott",
