@@ -9,7 +9,7 @@
   "dependencies": {
     "gatsby": "^1.9.250",
     "gatsby-remark-copy-linked-files": "^1.5.31",
-    "gatsby-remark-vega": "^0.2.2",
+    "gatsby-remark-vega": "^0.2.3",
     "gatsby-source-filesystem": "^1.5.31",
     "gatsby-transformer-remark": "^1.7.41",
     "lodash": "^4.17.10",
