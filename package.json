@@ -28,10 +28,10 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build-gatsby": "gatsby build",
+    "build-gatsby": "gatsby build --prefix-paths",
     "deploy": "gh-pages -d public",
     "prebuild": "rm -rf .cache/* && rm -rf docs && rm -rf public",
-    "build": "NODE_ENV=production && npm run prebuild && npm run build-gatsby --prefix-paths",
+    "build": "NODE_ENV=production && npm run prebuild && npm run build-gatsby",
     "develop": "gatsby develop"
   }
 }
